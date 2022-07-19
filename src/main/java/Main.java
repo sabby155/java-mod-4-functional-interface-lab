@@ -11,3 +11,7 @@ public class Main {
 
 @FunctionalInterface
 // your code here
+interface ConcatStringFunction {
+      String apply(String... args);
+
+}
